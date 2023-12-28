@@ -4,4 +4,6 @@
 # There is a Slider, Sending a form by email,
 # The ability to leave a review and Feedback.
 # Adaptive for tablets and mobile devices.
+# Page navigation
+# Burger menu
 # HTML, CSS, JavaScript, PHPMiller
