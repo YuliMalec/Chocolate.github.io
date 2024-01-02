@@ -757,7 +757,7 @@
                     const formAction = form.getAttribute("action") ? form.getAttribute("action").trim() : "#";
                     const formMethod = form.getAttribute("method") ? form.getAttribute("method").trim() : "GET";
                     const formData = new FormData(form);
-                    console.log(form);
+                    console.log(formMethod);
                     form.classList.add("_sending");
                     const response = await fetch(formAction, {
                         method: formMethod,
