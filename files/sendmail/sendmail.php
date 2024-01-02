@@ -20,7 +20,7 @@
 	$mail->SMTPSecure = /*PHPMailer::ENCRYPTION_SMTPS;*/'TLS';            //Enable implicit TLS encryption
 	$mail->Port       = 587;      
 	//Від кого лист
-	$mail->setFrom('malets.yulia@ukr.net', 'Фрілансер по життю'); // Вказати потрібний E-mail
+	$mail->setFrom('uliamalec063@gmail.com', 'Фрілансер по життю'); // Вказати потрібний E-mail
 	//Кому відправити
 	$mail->addAddress('yulia835@ukr.net'); // Вказати потрібний E-mail
 	//Тема листа
