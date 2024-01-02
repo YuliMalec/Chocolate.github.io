@@ -11,16 +11,14 @@
 	$mail->setLanguage('ru', 'phpmailer/language/');
 	$mail->IsHTML(true);
 
-	/*
+	
 	$mail->isSMTP();                                            //Send using SMTP
-	$mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
+	$mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
 	$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-	$mail->Username   = 'user@example.com';                     //SMTP username
-	$mail->Password   = 'secret';                               //SMTP password
-	$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-	$mail->Port       = 465;                 
-	*/
-
+	$mail->Username   = 'uliamalec063@gmail.com';                     //SMTP username
+	$mail->Password   = 'lqtn yrwz ajmx yakc';                               //SMTP password
+	$mail->SMTPSecure = /*PHPMailer::ENCRYPTION_SMTPS;*/'TLS';            //Enable implicit TLS encryption
+	$mail->Port       = 587;      
 	//Від кого лист
 	$mail->setFrom('malets.yulia@ukr.net', 'Фрілансер по життю'); // Вказати потрібний E-mail
 	//Кому відправити
