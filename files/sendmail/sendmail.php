@@ -16,7 +16,7 @@
 	$mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
 	$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
 	$mail->Username   = 'uliamalec063@gmail.com';                     //SMTP username
-	$mail->Password   = 'lqtn yrwz ajmx yakc';                               //SMTP password
+	$mail->Password   = 'lqtnyrwzajmxyakc';                               //SMTP password
 	$mail->SMTPSecure = /*PHPMailer::ENCRYPTION_SMTPS;*/'TLS';            //Enable implicit TLS encryption
 	$mail->Port       = 587;      
 	//Від кого лист
