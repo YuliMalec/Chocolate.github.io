@@ -29,9 +29,9 @@
 	//Тіло листа
 	$body = '<h1>Зустрічайте супер листа!</h1>';
 
-	//if(trim(!empty($_POST['email']))){
-		//$body.=$_POST['email'];
-	//}	
+	if(trim(!empty($_POST['email']))){
+		$body.=$_POST['email'];
+	}	
 	
 	/*
 	//Прикріпити файл
