@@ -352,7 +352,7 @@
 								</div>
 							</div>
 
-							<form action="files/sendmail/sendmail.php" method="POST" data-ajax class="form">
+							<form action="files/sendmail/sendmail.php"enctype="multipart/form-data" method="POST" data-ajax class="form">
 
 								<label for="name" class="email-title">Personal information</label>
 								<div class="personal-block">
@@ -467,7 +467,7 @@
 
 									<button data-close type="button" class="popup__close"></button>
 								</div>
-								<form action="files/sendmail/sendmail.php" data-ajax method="POST" class="form_form">
+								<form action="files/sendmail/sendmail.php"enctype="multipart/form-data" data-ajax method="POST" class="form_form">
 
 									<input type="text" name="form[name]" data-error="Error" data-required="name" placeholder="Name" class="input" id="name ">
 									<input type="email" name="form[email]" data-required="email" data-error="Error" placeholder="E-mail" class="email" id="email">
@@ -501,7 +501,7 @@
 									<hr>
 									<span>new chocolate</span> first!
 								</div>
-								<form action="files/sendmail/sendmail.php" method="POST" data-ajax class="subscribe_form">
+								<form action="files/sendmail/sendmail.php" enctype="multipart/form-data" method="POST" data-ajax class="subscribe_form">
 									<input type="text" name="form[email]" data-error="Error" data-required="email" placeholder="Enter your email" class="input">
 									<button type="submit" class="button buy-now">Subscribe</button>
 								</form>
